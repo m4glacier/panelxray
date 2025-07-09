@@ -14,7 +14,7 @@ st.title("Panel Kontrol Simulasi Pesawat Roentgen")
 # Inisialisasi session state
 if "kv" not in st.session_state: st.session_state.kv = 0
 if "ma" not in st.session_state: st.session_state.ma = 0
-if "sec" not in st.session_state: st.session_state.sec = 1
+if "sec" not in st.session_state: st.session_state.sec = 0
 if "sent_payload" not in st.session_state: st.session_state.sent_payload = {}
 
 # === Parameter Kontrol ===
