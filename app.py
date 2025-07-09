@@ -43,7 +43,7 @@ with col3:
 if st.button("🔄 RESET"):
     st.session_state.kv = 0
     st.session_state.ma = 0
-    st.session_state.sec = 1
+    st.session_state.sec = 0
 
 # Status Paparan
 st.subheader("Kontrol Paparan")
